@@ -1,7 +1,7 @@
 'use client';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
-import { MoveUpRight, Github, Linkedin, X, Twitter } from 'lucide-react';
+import { MoveUpRight, Github, Linkedin, Twitter } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
