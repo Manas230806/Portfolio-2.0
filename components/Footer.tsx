@@ -8,12 +8,12 @@ interface RepoStats {
 
 const Footer = async () => {
     const repoStats = await fetch(
-        'https://api.github.com/repos/ManasRanipa/portfolio-2.0',
+        'https://api.github.com/repos/Manas230806/Portfolio-2.0',
         {
             next: {
                 revalidate: 60 * 60, // 1 hour
             },
-        },
+        } as RequestInit,
     );
 
     const { stargazers_count, forks_count } =
@@ -32,7 +32,7 @@ const Footer = async () => {
 
                 <div className="">
                     <a
-                        href="https://github.com/ManasRanipa/portfolio-2.0"
+                        href="https://github.com/Manas230806/Portfolio-2.0"
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
