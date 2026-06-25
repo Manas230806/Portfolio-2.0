@@ -1,8 +1,8 @@
-import AboutMe from './_components/AboutMe';
-import Banner from './_components/Banner';
-import Experiences from './_components/Experiences';
-import Skills from './_components/Skills';
-import ProjectList from './_components/ProjectList';
+import AboutMe from './projects/_components/AboutMe';
+import Banner from './projects/_components/Banner';
+import Experiences from './projects/_components/Experiences';
+import Skills from './projects/_components/Skills';
+import ProjectList from './projects/_components/ProjectList';
 
 export default function Home() {
     return (

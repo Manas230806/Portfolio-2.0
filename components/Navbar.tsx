@@ -1,7 +1,7 @@
 'use client';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
-import { MoveUpRight } from 'lucide-react';
+import { MoveUpRight, Github, Linkedin, X, Twitter } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
@@ -104,8 +104,11 @@ const Navbar = () => {
                                             href={link.url}
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="text-lg capitalize hover:underline"
+                                            className="text-lg capitalize hover:underline flex items-center gap-2"
                                         >
+                                            {link.name === 'github' && <Github size={18} />}
+                                            {link.name === 'linkedin' && <Linkedin size={18} />}
+                                            {link.name === 'twitter' && <Twitter size={18} />}
                                             {link.name}
                                         </a>
                                     </li>
