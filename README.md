@@ -23,8 +23,8 @@ Yes, you can fork this repo. Please give me proper credit by linking back to the
 First, run the development server:
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
