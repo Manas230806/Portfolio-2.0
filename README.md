@@ -36,4 +36,4 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 _This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
 
 ## 📄 License
-This project is open source and available under the [MIT License](https://github.com/ManasRanipa/portfolio-2.0/blob/main/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/Manas230806/portfolio-2.0/blob/main/LICENSE).
